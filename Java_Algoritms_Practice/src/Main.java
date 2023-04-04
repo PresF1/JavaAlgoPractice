@@ -18,5 +18,8 @@ public class Main {
 
         System.out.println("Here is the max number: ");
         System.out.println(MathOperations.GetMax(num1, num2));
+
+        System.out.println("Here is the min number: ");
+        System.out.println(MathOperations.GetMin(num1, num2));
     }
 }

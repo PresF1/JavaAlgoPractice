@@ -6,5 +6,10 @@ public class MathOperations {
 
     public static int GetMax(int num1, int num2) {
         return num1 >= num2 ? num1 : num2;
+}
+
+    public static int GetMin(int num1, int num2) {
+        return num1 <= num2 ? num1 : num2;
     }
+
 }
