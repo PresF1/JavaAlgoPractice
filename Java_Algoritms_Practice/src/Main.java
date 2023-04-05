@@ -21,5 +21,8 @@ public class Main {
 
         System.out.println("Here is the min number: ");
         System.out.println(MathOperations.GetMin(num1, num2));
+
+        System.out.println("Here is the avg number: ");
+        System.out.println(MathOperations.GetAvg(num1, num2));
     }
 }

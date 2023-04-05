@@ -12,4 +12,8 @@ public class MathOperations {
         return num1 <= num2 ? num1 : num2;
     }
 
+    public static double GetAvg(int num1, int num2) {
+        return (double)(num1 + num2)/2;
+    }
+
 }
